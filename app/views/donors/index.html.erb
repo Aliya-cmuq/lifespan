@@ -6,6 +6,7 @@
     <th>Region</th>
     <th>Blood type</th>
     <th>Email</th>
+    <th>Social Network</th>
     <th></th>
     <th></th>
     <th></th>
@@ -17,6 +18,7 @@
     <td><%= donor.region %></td>
     <td><%= donor.blood_type %></td>
     <td><%= donor.email %></td>
+    <td><%= donor.social_network %></td>
     <td><%= link_to 'Show', donor %></td>
     <td><%= link_to 'Edit', edit_donor_path(donor) %></td>
     <td><%= link_to 'Destroy', donor, method: :delete, data: { confirm: 'Are you sure?' } %></td>

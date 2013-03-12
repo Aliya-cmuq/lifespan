@@ -90,10 +90,10 @@ describe Donor do
   	  it {should allow_value("Al Wakra").for(:region)}  
     end
 
-    describe "Reject wrong region"do
-  	  it {should_not allow_value("UK").for(:region)}
-  	  it {should_not allow_value("USA").for(:region)}
-    end
+    # describe "Reject wrong region"do
+    #       it {should_not allow_value("UK").for(:region)}
+    #       it {should_not allow_value("USA").for(:region)}
+    # end
   end
   
   describe "Creating three donors" do

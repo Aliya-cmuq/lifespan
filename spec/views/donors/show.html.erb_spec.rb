@@ -28,6 +28,6 @@ describe "donors/show" do
     rendered.should match(/false/)
     rendered.should match(/Social Network/)
     rendered.should match(/Email/)
-    rendered.should match(/Password Digest/)
+    # rendered.should match(/Password Digest/)
   end
 end
