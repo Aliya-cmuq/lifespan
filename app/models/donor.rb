@@ -1,3 +1,6 @@
+require 'spec_helper'
+require 'factory_girl'
+
 class Donor < ActiveRecord::Base
   attr_accessible :active, :donor, :blood_type, :email, :first_name, :last_name, :password, :password_confirmation, :phone, :region, :social_network
   has_secure_password
